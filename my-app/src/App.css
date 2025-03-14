@@ -1,0 +1,80 @@
+/* Reset default padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Center and fix the container */
+.Container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  background: #fff;
+  padding: 30px;
+  border: 2px solid red;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the heading */
+h2 {
+  text-align: center;
+  color: red;
+  margin-bottom: 20px;
+}
+
+/* Style the label-input container */
+#lbl {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+/* Style labels */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style input fields */
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style buttons */
+.btn {
+  margin-top: 10px;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: darkred;
+}
+
+p{
+  color:rebeccapurple
+}
