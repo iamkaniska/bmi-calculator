@@ -13,7 +13,7 @@ function App() {
 
   let calcBmi =(e)=>{
 
-    e.preventDefault();
+     e.preventDefault();
     if(weight===0 || height ===0){
       alert("Invalid Details")
     }
